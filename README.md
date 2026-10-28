@@ -4,7 +4,7 @@ A MERN hotel operations MVP for managing rooms, reservations, guest details, arr
 
 ## Demo video
 
-Add the hosted demo video URL here after recording and uploading it.
+[Watch the HotelPro demo video](hotelpro-demo.mp4)
 
 ## What’s included
 
@@ -51,11 +51,3 @@ Run `npm run dev`, open [http://localhost:5173](http://localhost:5173), and crea
 | `PATCH` | `/api/bookings/:id` | Update reservation or payment status |
 
 All routes other than register and login require a bearer token. Booking and payment data are demonstration workflows: HotelPro records payment status but does not process card payments or connect to a payment provider.
-
-## Suggested next steps
-
-1. Add automated API and browser tests.
-2. Add authorization roles for owners, managers, and front-desk staff.
-3. Connect a payment provider and protect webhook routes.
-4. Add persistent audit history, pagination, and reporting date ranges.
-5. Deploy behind HTTPS and configure production secrets and database backups.
