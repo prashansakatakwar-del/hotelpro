@@ -1,0 +1,25 @@
+{
+  "name": "hotelpro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HotelPro hotel operations MVP",
+  "scripts": {
+    "dev": "concurrently -k \"node --watch server.js\" \"vite --config vite.config.js\"",
+    "build": "vite build --config vite.config.js",
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "vite": "^6.0.7"
+  }
+}
